@@ -1,0 +1,29 @@
+
+
+
+.body {
+    background-color: #ccc;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.header {
+    background-color: #eee;
+}
+
+.nav {
+    background-color: #ddd;
+}
+
+.section {
+    background-color: #eee;
+}
+
+.form {
+display: grid
+}
+
+.input {
+    max-width: 20px;
+}
