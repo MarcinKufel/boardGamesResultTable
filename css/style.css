@@ -17,13 +17,30 @@
 }
 
 .section {
+    display: grid;
+    background-color: #eee;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr) ;
+    justify-content: center;
     background-color: #eee;
 }
 
 .form {
-display: grid
+
+
+
 }
 
 .input {
-    max-width: 20px;
+    text-align: center;
+
+}
+
+.label {
+    color: white;
+    background-color: green;
+
 }

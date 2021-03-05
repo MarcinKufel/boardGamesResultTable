@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Games Result Tables</title>
-    <link href = "css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href = "css/style.css" >
     <script src="js/script.js" defer></script>
 </head>
 <body class="body">
@@ -21,18 +22,66 @@
     <main class="main">
         <section class="section">
             <h3>7 Wonders result table</h3>
+            <article class="article">
+                <form class="form">
+                    <input class="input label" value="" disabled>
+                    <input class="input label" value="yellow" disabled>
+                    <input class="input label" value="z2" disabled>
+                    <input class="input" value="z3" disabled>
+                    <input class="input" value="z4" disabled>
+                    <input class="input" value="z5" disabled>
+                    <input class="input" value="z6" disabled>
+                    <input class="input" value="z7" disabled>
+                    <div></div>
+
+
+                </form>
             <form class="form">
-                <input class="input" value="0">
-                <input class="input" value="0">
-                <input class="input" value="0">
-                <input class="input" value="0">
-                <input class="input" value="0">
-                <input class="input" value="0">
-                <input class="input" value="0">
-                <input class="input" value="0">
+                <input class="input v1" type="text" value="" placeholder="Please write your name">
+                <input class="input v2" type="number" value=2>
+                <input class="input v3" type="number" value=3>
+                <input class="input v4" type="number" value=4>
+                <input class="input v5" type="number" value=5>
+                <input class="input v6" type="number" value=6>
+                <input class="input v7" type="number" value=7>
+                <input class="input v8" type="number" value=8>
+                <div class="result result1" value="" disabled placeholder="Here will be you result">Here will be your result</div>
+
+
             </form>
-        </section>
+            <form class="form">
+                <input class="input" value="">
+                <input class="input" value="9">
+                <input class="input" value="10">
+                <input class="input" value="11">
+                <input class="input" value="12">
+                <input class="input" value="13">
+                <input class="input" value="14">
+                <input class="input" value="15">
+                <input class="result result2" value="Your result" disabled>
+
+
+            </form>
+            <form class="form">
+                <input class="input" value="">
+                <input class="input" value="17">
+                <input class="input" value="18">
+                <input class="input" value="19">
+                <input class="input" value="20">
+                <input class="input" value="21">
+                <input class="input" value="22">
+                <input class="input" value="23">
+                <input class="result result3" value="Your result" disabled>
+
+
+            </form>
+        </article>
+        <button class="allResults">Calculate result for all</button>
+           </section>
     </main>
+    
+
+
     
 </body>
 </html>
