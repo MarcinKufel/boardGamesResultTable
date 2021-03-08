@@ -3,6 +3,7 @@
 let result1 = document.querySelector(".result1");
 let result2 = document.querySelector(".result2");
 let result3 = document.querySelector(".result3");
+let result4 = document.querySelector(".result4");
 let allResults = document.querySelector(".allResults");
 let wynik = document.querySelector(".wynik");
 
@@ -35,12 +36,20 @@ allResults.addEventListener("click", (event) => {
     let c7 = +document.querySelector(".c7").value;
     let c8 = +document.querySelector(".c8").value;
 
+    let d2 = +document.querySelector(".d2").value;
+    let d3 = +document.querySelector(".d3").value;
+    let d4 = +document.querySelector(".d4").value;
+    let d5 = +document.querySelector(".d5").value;
+    let d6 = +document.querySelector(".d6").value;
+    let d7 = +document.querySelector(".d7").value;
+    let d8 = +document.querySelector(".d8").value;
+
   //  console.log(v2);
 
     result1.innerHTML = v2 + v3 + v4 + v5 + v6 + v7 + v8;
     result2.innerHTML = b2 + b3 + b4 + b5 + b6 + b7 + b8;
     result3.innerHTML = c2 + c3 + c4 + c5 + c6 + c7 + c8;
-
+    result4.innerHTML = d2 + d3 + d4 + d5 + d6 + d7 + d8;
   //  wynik.innerHTML = 'v2 + v3 + v4 + v5 + v6 + v7 + v8';
 });
 
