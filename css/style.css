@@ -29,6 +29,12 @@
     background-color: #eee;
 }
 
+@media (max-width: 568px) {
+    .article {
+    grid-template-columns: repeat(4, 1fr) ;
+    }
+};
+
 .form {
 
 }
