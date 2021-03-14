@@ -5,6 +5,8 @@ let result2 = document.querySelector(".result2");
 let result3 = document.querySelector(".result3");
 let result4 = document.querySelector(".result4");
 let result5 = document.querySelector(".result5");
+let result6 = document.querySelector(".result6");
+
 
 let allResults = document.querySelector(".allResults");
 let wynik = document.querySelector(".wynik");
@@ -54,6 +56,14 @@ allResults.addEventListener("click", (event) => {
     let e7 = +document.querySelector(".e7").value;
     let e8 = +document.querySelector(".e8").value;
 
+    let f2 = +document.querySelector(".f2").value;
+    let f3 = +document.querySelector(".f3").value;
+    let f4 = +document.querySelector(".f4").value;
+    let f5 = +document.querySelector(".f5").value;
+    let f6 = +document.querySelector(".f6").value;
+    let f7 = +document.querySelector(".f7").value;
+    let f8 = +document.querySelector(".f8").value;
+
   //  console.log(v2);
 
     result1.innerHTML = v2 + v3 + v4 + v5 + v6 + v7 + v8;
@@ -61,6 +71,8 @@ allResults.addEventListener("click", (event) => {
     result3.innerHTML = c2 + c3 + c4 + c5 + c6 + c7 + c8;
     result4.innerHTML = d2 + d3 + d4 + d5 + d6 + d7 + d8;
     result5.innerHTML = e2 + e3 + e4 + e5 + e6 + e7 + e8;
+    result6.innerHTML = f2 + f3 + f4 + f5 + f6 + f7 + f8;
+
 
   //  wynik.innerHTML = 'v2 + v3 + v4 + v5 + v6 + v7 + v8';
 });
