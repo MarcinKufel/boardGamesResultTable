@@ -6,6 +6,7 @@ let result3 = document.querySelector(".result3");
 let result4 = document.querySelector(".result4");
 let result5 = document.querySelector(".result5");
 let result6 = document.querySelector(".result6");
+let result6 = document.querySelector(".result7");
 
 
 let allResults = document.querySelector(".allResults");
@@ -64,6 +65,14 @@ allResults.addEventListener("click", (event) => {
     let f7 = +document.querySelector(".f7").value;
     let f8 = +document.querySelector(".f8").value;
 
+    let g2 = +document.querySelector(".g2").value;
+    let g3 = +document.querySelector(".g3").value;
+    let g4 = +document.querySelector(".g4").value;
+    let g5 = +document.querySelector(".g5").value;
+    let g6 = +document.querySelector(".g6").value;
+    let g7 = +document.querySelector(".g7").value;
+    let g8 = +document.querySelector(".g8").value;
+
   //  console.log(v2);
 
     result1.innerHTML = v2 + v3 + v4 + v5 + v6 + v7 + v8;
@@ -72,6 +81,8 @@ allResults.addEventListener("click", (event) => {
     result4.innerHTML = d2 + d3 + d4 + d5 + d6 + d7 + d8;
     result5.innerHTML = e2 + e3 + e4 + e5 + e6 + e7 + e8;
     result6.innerHTML = f2 + f3 + f4 + f5 + f6 + f7 + f8;
+    result7.innerHTML = g2 + g3 + g4 + g5 + g6 + g7 + g8;
+
 
 
   //  wynik.innerHTML = 'v2 + v3 + v4 + v5 + v6 + v7 + v8';
