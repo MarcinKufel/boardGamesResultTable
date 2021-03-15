@@ -6,7 +6,7 @@ let result3 = document.querySelector(".result3");
 let result4 = document.querySelector(".result4");
 let result5 = document.querySelector(".result5");
 let result6 = document.querySelector(".result6");
-let result6 = document.querySelector(".result7");
+let result7 = document.querySelector(".result7");
 
 
 let allResults = document.querySelector(".allResults");
