@@ -53,11 +53,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.label {
-    color: white;
-    background-color: green;
 
-}
 
 .result {
     text-align: center;
