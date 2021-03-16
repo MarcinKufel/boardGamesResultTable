@@ -41,10 +41,10 @@
 
 .input {
     text-align: center;
-    max-width: 80px;
+    max-width: 82px;
 
     text-decoration: none;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.336);
 }
 
 input::-webkit-outer-spin-button,
@@ -59,3 +59,7 @@ input::-webkit-inner-spin-button {
     text-align: center;
 }
 
+.military {
+    background-color: hsla(0, 100%, 50%, 0.603);
+    color: white;
+}
