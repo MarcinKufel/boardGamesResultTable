@@ -73,7 +73,6 @@ allResults.addEventListener("click", (event) => {
     let g7 = +document.querySelector(".g7").value;
     let g8 = +document.querySelector(".g8").value;
 
-  //  console.log(v2);
 
     result1.innerHTML = v2 + v3 + v4 + v5 + v6 + v7 + v8;
     result2.innerHTML = b2 + b3 + b4 + b5 + b6 + b7 + b8;
@@ -83,8 +82,5 @@ allResults.addEventListener("click", (event) => {
     result6.innerHTML = f2 + f3 + f4 + f5 + f6 + f7 + f8;
     result7.innerHTML = g2 + g3 + g4 + g5 + g6 + g7 + g8;
 
-
-
   //  wynik.innerHTML = 'v2 + v3 + v4 + v5 + v6 + v7 + v8';
 });
-
