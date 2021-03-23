@@ -102,6 +102,7 @@ input::-webkit-inner-spin-button {
 
 .calculate__button {
     color: white;
+    margin: 10px;
     background-color: rgba(165, 42, 42, 0.644);
 }
 
