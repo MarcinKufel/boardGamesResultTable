@@ -9,7 +9,7 @@ let result6 = document.querySelector(".result6");
 let result7 = document.querySelector(".result7");
 
 
-let allResults = document.querySelector(".allResults");
+let allResults = document.querySelector(".calculate__button");
 let wynik = document.querySelector(".wynik");
 
 
