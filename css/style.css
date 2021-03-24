@@ -109,3 +109,7 @@ input::-webkit-inner-spin-button {
 .calculate__button:hover {
     background-color: rgba(165, 42, 42, 0.801);
 }
+
+.h3 {
+    background-color: #ddd;
+}
