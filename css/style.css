@@ -71,7 +71,7 @@ input::-webkit-inner-spin-button {
      }
 }
 
-.military {
+.input--military {
     background-color: hsla(0, 100%, 50%, 0.603);
     color: white;
 }
