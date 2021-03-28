@@ -76,7 +76,7 @@ input::-webkit-inner-spin-button {
     color: white;
 }
 
-.treasury {
+.input--treasury {
     color: rgba(242,215,50,1);
     background-color: grey;
 }
