@@ -81,6 +81,10 @@ input::-webkit-inner-spin-button {
     background-color: grey;
 }
 
+.input--wonder {
+    background-color: azure;
+}
+
 .civilian {
     color: white;
     background-color: rgba(0, 0, 255, 0.479);
