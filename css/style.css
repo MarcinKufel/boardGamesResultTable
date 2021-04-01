@@ -90,7 +90,7 @@ input::-webkit-inner-spin-button {
     background-color: rgba(0, 0, 255, 0.479);
 }
 
-.scientific {
+.input--scientific {
     color: white;
     background-color: rgba(0, 128, 0, 0.658);
 }
