@@ -18,6 +18,10 @@
     background-color: #ddd;
 }
 
+.list {
+    list-style: none;
+}
+
 .section {
     display: grid;
     background-color: #eee;
